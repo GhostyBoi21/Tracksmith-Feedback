@@ -1,7 +1,7 @@
 name: Feature suggestion
 description: Suggest a new feature or an improvement to an existing Tracksmith workflow.
 title: "[Idea]: "
-labels: ["feature-request"]
+labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
