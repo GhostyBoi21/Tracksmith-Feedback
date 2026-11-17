@@ -1,0 +1,44 @@
+name: Feature suggestion
+description: Suggest a new feature or an improvement to an existing Tracksmith workflow.
+title: "[Idea]: "
+labels: ["feature-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea. Please focus on the problem you are trying to solve rather than prescribing a particular implementation.
+  - type: input
+    id: version
+    attributes:
+      label: Tracksmith version (if applicable)
+      placeholder: 0.4.0
+    validations:
+      required: false
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem or use case would this solve?
+      description: Tell us what you are trying to do and what is difficult today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Tracksmith to do?
+      description: Describe the feature or improvement you have in mind.
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Why would this be useful?
+      description: Who would benefit and how often would you use it?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context (optional)
+      description: Examples or redacted screenshots are welcome. Do not upload private audio or sensitive information.
+    validations:
+      required: false
