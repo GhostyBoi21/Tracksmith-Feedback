@@ -2,6 +2,27 @@
 
 Welcome to the public feedback hub for **Tracksmith**, a Windows audio editor currently in beta development.
 
+## What is Tracksmith?
+
+Tracksmith is a Windows desktop audio editor for organising and customising your music files. It started as a personal project to make local Spotify tracks feel less empty by giving them proper artwork and complete metadata, and has grown into a wider audio editing tool.
+
+You can update the information and artwork embedded in your audio files, preview and trim audio, organise batches of tracks, and customise how your music files are named — all from one workspace.
+
+## What can you do with it?
+
+- **Edit music metadata:** update titles, artists, albums, genres, years, track and disc numbers, album artists, composers, comments, BPM and lyrics.
+- **Add and customise artwork:** import JPG, JPEG, PNG or WEBP artwork, crop it to a square, and embed it into the audio file.
+- **Preview and trim audio:** listen to tracks, view waveforms, zoom and pan the timeline, and select the start and end points you want to keep. Trimming methods vary by format to protect audio quality and file integrity.
+- **Work with multiple tracks:** import files or whole folders, edit several tracks together, copy metadata and artwork between tracks, and save changes individually or in batches.
+- **Rename files from their metadata:** create reusable filename templates using fields such as artist, title, album and year, preview the result, and rename tracks safely.
+- **Clean up and check your library:** use Bulk Edit, Clean Up, sorting, filters and Tracksmith Quick Fix to help spot and improve incomplete metadata.
+- **Keep control of edits:** use Undo and Redo, review changes before saving, and use Save As to create a separate copy without changing the original.
+- **Customise the app:** choose an accent colour and configure which metadata fields Quick Fix checks.
+
+## Supported audio formats
+
+Tracksmith currently supports **MP3, WAV, FLAC, M4A, AAC, AIFF and Ogg Vorbis**. Some editing and trimming operations depend on the format and file structure. When an operation is unsupported or cannot be validated safely, Tracksmith may disable it or refuse the save rather than risk damaging the file.
+
 ## Screenshots
 
 Here is a look at Tracksmith's interface and editing workspace.
