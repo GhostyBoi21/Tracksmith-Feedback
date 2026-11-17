@@ -1,0 +1,75 @@
+name: Bug report
+description: Report something that is broken or behaving unexpectedly in Tracksmith.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping test Tracksmith. Please search existing issues before submitting.
+        **Safety:** Test with copies of your audio files. Do not attach private music, copyrighted audio you cannot share, personal information, passwords, licence keys, or unredacted logs. Redact usernames and private file paths from screenshots.
+  - type: input
+    id: tracksmith-version
+    attributes:
+      label: Tracksmith version
+      description: For example, 0.3.13 or 0.4.0.
+      placeholder: 0.4.0
+    validations:
+      required: true
+  - type: dropdown
+    id: windows-version
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10
+        - Windows Insider / Preview
+        - Other / Not sure
+    validations:
+      required: true
+  - type: input
+    id: affected-feature
+    attributes:
+      label: What part of Tracksmith is affected?
+      description: For example, importing, metadata, artwork, trimming, Save As, filename templates.
+      placeholder: Audio trimming
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps someone else can follow to see the same problem.
+      placeholder: |
+        1. Open Tracksmith
+        2. Import a test audio file
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened?
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshot or additional evidence (optional)
+      description: You can attach a screenshot by dragging it into this box. Redact personal information. Do not attach private audio files or sensitive logs.
+      placeholder: Add a screenshot or a short, redacted log excerpt if it helps.
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Before submitting
+      options:
+        - label: I have not attached private audio, personal information, credentials, licence keys or unredacted sensitive logs.
+          required: true
