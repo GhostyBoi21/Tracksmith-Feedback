@@ -2,6 +2,22 @@
 
 Welcome to the public feedback hub for **Tracksmith**, a Windows audio editor currently in beta development.
 
+## Screenshots
+
+Here is a look at Tracksmith's interface and editing workspace.
+
+### Main interface
+![Tracksmith main interface](images/main-interface.png)
+
+### Settings
+![Tracksmith settings](images/settings.png)
+
+### Audio workspace
+![Tracksmith audio workspace](images/workspace-editor.png)
+
+### Metadata and artwork editing
+![Tracksmith metadata and artwork editor](images/metadata-artwork.png)
+
 > [!IMPORTANT]
 > **Windows security warning: Tracksmith beta installers are currently unsigned.**
 >
