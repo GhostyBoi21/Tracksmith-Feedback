@@ -1,7 +1,7 @@
 name: General feedback
 description: Share feedback about the Tracksmith beta experience, usability or documentation.
 title: "[Feedback]: "
-labels: ["feedback"]
+labels: ["question"]
 body:
   - type: markdown
     attributes:
