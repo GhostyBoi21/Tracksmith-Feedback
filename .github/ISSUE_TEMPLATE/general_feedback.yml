@@ -1,0 +1,46 @@
+name: General feedback
+description: Share feedback about the Tracksmith beta experience, usability or documentation.
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to share feedback. You do not need to find a bug to leave feedback here.
+  - type: dropdown
+    id: feedback-type
+    attributes:
+      label: What is your feedback about?
+      options:
+        - Ease of use
+        - Interface and design
+        - Performance and stability
+        - Audio formats and compatibility
+        - Installation and updates
+        - Documentation and instructions
+        - Overall experience
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Tracksmith version
+      description: If known.
+      placeholder: 0.4.0
+    validations:
+      required: false
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+      description: What worked well, what was confusing, or what could be improved?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context (optional)
+      description: Redacted screenshots or examples are welcome. Do not include private audio or sensitive information.
+    validations:
+      required: false
