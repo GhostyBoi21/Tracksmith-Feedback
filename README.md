@@ -23,6 +23,48 @@ You can update the information and artwork embedded in your audio files, preview
 
 Tracksmith currently supports **MP3, WAV, FLAC, M4A, AAC, AIFF and Ogg Vorbis**. Some editing and trimming operations depend on the format and file structure. When an operation is unsupported or cannot be validated safely, Tracksmith may disable it or refuse the save rather than risk damaging the file.
 
+## Planned roadmap
+
+The ideas below are **plans, not promises or released features**. They are based on the current development roadmap and may change as Tracksmith develops. Features or version targets may be changed, delayed, dropped or replaced, and new ideas may be added. A feature appearing here does not guarantee it will ship in that version.
+
+### 0.5.x — Audio conversion
+- Convert between supported audio formats, such as MP3, WAV, M4A and FLAC.
+- Choose suitable quality and output settings for the converted file.
+- Keep the original file unless the user explicitly chooses to replace it.
+
+### 0.6.x — Installation and in-app updates
+- Improve the Windows installer and download experience.
+- Add a Patch Notes page in Settings so users can see what changed between versions.
+- Review whether the app and its dependencies are still compatible with macOS. This is a compatibility assessment, not a promise of a macOS release in this milestone.
+
+### 0.7.x — More languages
+- Add a language selector in Settings.
+- Start with English, Polish, Spanish, French, German, Portuguese, Italian and Dutch.
+- Remember the selected language between launches.
+
+### 0.8.x — First-launch setup
+- Add a guided setup the first time Tracksmith opens.
+- Let users choose a few basic preferences and remember those choices.
+- Keep setup as a one-time experience rather than showing it on every launch.
+
+### 0.9.x — Update checks
+- Check for newer Tracksmith releases on GitHub in the background.
+- Let users see the new version and a summary of changes when an update is available.
+- Allow users to choose whether to update, turn off update prompts, and check manually in Settings.
+
+### 1.0.0 — First public release
+- Prepare Tracksmith for its first stable public release.
+- Aim to add macOS support and a macOS installer, depending on the results of earlier compatibility testing.
+- Complete the required macOS testing and release preparation if support goes ahead.
+- Automatically select a supported language based on the computer's language, while allowing users to change it manually.
+
+### 2.0.0 — Possible add-ons and themes
+- Explore optional add-ons that users could install to extend Tracksmith.
+- Explore ways for developers to create and share their own add-ons.
+- Consider app-wide themes that users can preview and switch between.
+
+The 2.0.0 ideas are exploratory and especially subject to change; they are not confirmed commitments.
+
 ## Screenshots
 
 Here is a look at Tracksmith's interface and editing workspace.
