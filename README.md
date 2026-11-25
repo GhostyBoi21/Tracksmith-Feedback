@@ -23,7 +23,7 @@ You can update the information and artwork embedded in your audio files, preview
 - **Rename files from their metadata:** create reusable filename templates using fields such as artist, title, album and year, preview the result, and rename tracks safely.
 - **Clean up imported tracks:** use Bulk Edit, Clean Up, sorting, filters and Tracksmith Quick Fix to help spot and improve incomplete metadata.
 - **Keep control of edits:** use Undo and Redo, review changes before saving, and use Save As to create a separate copy without changing the original.
-- **Keep Tracksmith up to date:** use Settings → Updates to check for newer public beta releases, review release notes, and choose whether to download and install an update.
+- **Keep Tracksmith up to date:** Tracksmith can check for newer public beta releases automatically, or you can check manually in Settings → Updates. Review release notes and choose whether to download and install an update.
 - **Customise the app:** choose an accent colour and configure which metadata fields Quick Fix checks.
 
 ## Supported audio formats
