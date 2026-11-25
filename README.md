@@ -8,6 +8,19 @@ Welcome to the public feedback hub for **Tracksmith**, a Windows audio editor cu
 
 Open the newest release and download the Windows installer from its **Assets** section.
 
+> [!IMPORTANT]
+> **Windows security warning: Tracksmith beta installers are currently unsigned.**
+>
+> When you run a beta installer, Windows may show **“Windows protected your PC”**, identify the publisher as **Unknown**, or display a reputation-based warning. This can happen because the installer is not code-signed and Windows has not built up a reputation for it. It does **not** by itself prove the installer contains a virus, but it also does **not** prove that the file is safe.
+>
+> **Please stay cautious:**
+> - Only download a build from a download link explicitly shared by the Tracksmith maintainer.
+> - Check that the filename and version match the release announcement.
+> - Keep Microsoft Defender and other security protections enabled. Do not disable antivirus or ignore a malware detection just to install the beta.
+> - If Microsoft Defender or another security product reports a malware detection (rather than only an unknown-publisher or reputation warning), do not run the file. Report the warning to the maintainer and include a screenshot with any personal information hidden.
+>
+> Tracksmith is still in beta and may contain bugs. Use copies of your audio files and keep backups of anything important.
+
 ## What is Tracksmith?
 
 Tracksmith is a Windows desktop audio editor for organising and customising your music files. It started as a personal project to make local Spotify tracks feel less empty by giving them proper artwork and complete metadata, and has grown into a wider audio editing tool.
